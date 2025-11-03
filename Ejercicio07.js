@@ -1,0 +1,11 @@
+let x1 = 3;
+let y1 = 4;
+let x2 = 12;
+let y2 = 5;
+let distancia = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
+let distancia1 = Math.sqrt(Math.pow(x1, 1) + Math.pow(y1, 2));
+let distancia2 = Math.sqrt(Math.pow(x2, 1) + Math.pow(y2, 2));
+console.log("Distancia entre los puntos: " + distancia.toFixed(2));
+console.log("Distancia del punto 1 al origen: " + distancia1.toFixed(2));
+console.log("Distancia del punto 2 al origen: " + distancia2.toFixed(2));
+console.log("Suma de las distancias al origen: " + (distancia1+ distancia2).toFixed(2));
